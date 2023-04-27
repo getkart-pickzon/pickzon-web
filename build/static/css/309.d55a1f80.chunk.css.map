@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/309.d55a1f80.chunk.css","mappings":"AAAA,kBAEI,4BAA6B,CAC7B,oBAAqB,CACrB,mCACJ","sources":["pages/webPages/home/style.css"],"sourcesContent":[".appBtn img:hover {\n    -ms-transform: scale(1.1);\n    -webkit-transform: scale(1.1);\n    transform: scale(1.1);\n    transition-duration: 0.5s, 0.5s, 0.5s, 0.5s;\n}"],"names":[],"sourceRoot":""}
