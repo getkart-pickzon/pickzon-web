@@ -1,0 +1,24 @@
+.pickzonteamwork {
+  margin-top: 7%;
+  padding-left: 0%;
+}
+.fulfilingenvironment {
+  padding-left: 47%;
+}
+.funenvironment {
+  padding-right: 20%;
+}
+.sectionBackground {
+  background-position: -25px top;
+  background-size: 109%;
+  background-repeat: no-repeat;
+}
+.userImage span {
+  margin-left: -0.7rem;
+}
+.userImage span:first-child {
+  margin: 0;
+}
+.userImage span:last-child {
+  margin: 0 0 0 10px;
+}

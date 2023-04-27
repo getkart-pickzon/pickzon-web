@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpickzon_web=self.webpackChunkpickzon_web||[]).push([[303],{4303:function(e,n,u){u.r(n);u(2791);var c=u(184);n.default=function(){return(0,c.jsx)("div",{children:"SavedPostModule"})}}}]);
+//# sourceMappingURL=303.c996ceb2.chunk.js.map
