@@ -67,43 +67,51 @@ const Main = () => {
           <Loader size="huge">Loading...</Loader>
         </Dimmer>
       }>
-        <Header />
+        {/* <Header /> */}
         <ScrollToTop />
         <StartPopUp call={call} parent={setCall} />
         <Toast />
         <Switch>
-          <Route exact path={NavigationPaths.OPENSHORTAPPURL} component={OpenShortAppUrl} />
+          {/* --- */}
+          {/* <Route exact path={NavigationPaths.OPENSHORTAPPURL} component={OpenShortAppUrl} />
           <Route exact path={NavigationPaths.WHYPICKZONE} component={WhyPickzon} />
           <Route exact path={NavigationPaths.SERVICES} component={Services} />
           <Route exact path={NavigationPaths.PRIVACYPOLICY} component={PrivacyPolicy} />
           <Route exact path={NavigationPaths.TERM} component={Terms} />
           <Route exact path={NavigationPaths.SEARCHEXPLORE} component={SearchExplore} />
           <Route exact path={NavigationPaths.SOCIALCREATOR} component={SocialCreator} />
-          <Route exact path={NavigationPaths.BUSINESSPAGE} component={BusinessPage} />
+          <Route exact path={NavigationPaths.BUSINESSPAGE} component={BusinessPage} /> */}
+          {/* --- */}
           {/* <Route exact path={NavigationPaths.EARNMONEYPAGE} component={EarnMoneyPage} /> */}
-          <Route exact path={NavigationPaths.IPROPERTYPOLICY} component={IntellectualPolicy} />
+          {/* --- */}
+          {/* <Route exact path={NavigationPaths.IPROPERTYPOLICY} component={IntellectualPolicy} /> */}
+          {/* --- */}
           <Route exact path={NavigationPaths.HOME} component={Home_In} />
-          <Route exact path={NavigationPaths.SECURITY} component={Security} />
+          {/* --- */}
+          {/* <Route exact path={NavigationPaths.SECURITY} component={Security} />
           <Route exact path={NavigationPaths.FEATURE} component={Features} />
           <Route exact path={NavigationPaths.ABOUTUS} component={AboutUs} />
           <Route exact path={NavigationPaths.FEEDCONTENT} component={FeedContent} />
           <Route exact path={NavigationPaths.FAQ} component={FAQ} />
           <Route exact path={NavigationPaths.BLOGS} component={Blogs} />
           <Route exact path={NavigationPaths.BLOG} component={BlogDetails} />
-          <Route exact path={NavigationPaths.CONTACT} component={ContactUs} />
+          <Route exact path={NavigationPaths.CONTACT} component={ContactUs} /> */}
+          {/* --- */}
           {/* ----------------- Dynamic Pages Start -----------------*/}
           {/* <Route exact path={NavigationPaths.APP_REFER} component={AppViewRefer} /> */}
-          <Route exact path={NavigationPaths.APP_PRIVACYPOLICY} component={AppPrivacyPolicy} />
+          {/* --- */}
+          {/* <Route exact path={NavigationPaths.APP_PRIVACYPOLICY} component={AppPrivacyPolicy} />
           <Route exact path={NavigationPaths.APP_TERM} component={AppViewTerms} />
-          <PrivateRoute exact path={NavigationPaths.PAGEFEED} component={PageFeed} />
+          <PrivateRoute exact path={NavigationPaths.PAGEFEED} component={PageFeed} /> */}
           <PrivateRoute exact path={NavigationPaths.USERPROFILEPAGE} component={UserProfilePage} />
-          <PrivateRoute exact path={NavigationPaths.PAGESAVEFEED} component={SavePageFeed} />
-          <PublicRoute exact path={NavigationPaths.LOGIN} component={Login} />
+          {/* <PrivateRoute exact path={NavigationPaths.PAGESAVEFEED} component={SavePageFeed} />
+          <PublicRoute exact path={NavigationPaths.LOGIN} component={Login} /> */}
+          {/* --- */}
           <Route exact path={NavigationPaths.SHARINGMEDIA} component={SharingMedia} />
-          <Route exact path={NavigationPaths.COMINGSOON} component={ComingSoon} />
+          {/* <Route exact path={NavigationPaths.COMINGSOON} component={ComingSoon} /> */}
           <Route component={PageNotFound} />
         </Switch >
-        <Footer />
+        {/* <Footer /> */}
         <ScrollTopBtn iconName="arrow up" className="scroll-to-top" scrollLength="500" />
       </Suspense >
     </Router >
