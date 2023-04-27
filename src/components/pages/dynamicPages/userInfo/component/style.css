@@ -1,0 +1,141 @@
+.modal-cover {
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  padding: 0 !important;
+  margin-bottom: 0 !important;
+  border: none !important;
+  display: flex;
+  align-items: center;
+}
+
+.modal-profile {
+  width: 150px;
+  height: 150px !important;
+  padding: 0px !important;
+  position: absolute !important;
+  z-index: 1;
+  left: 20px;
+  top: 40px;
+}
+
+.modal-profile-img {
+  object-fit: cover;
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.radio-slider {
+  float: right;
+}
+
+.pickzon-id {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 !important
+}
+
+.ui.input:not(.disabled) input[disabled] {
+  opacity: 1;
+  padding-left: 1em !important;
+}
+
+.pickzon-userName ::placeholder {
+  color: #0c0c0c !important;
+}
+
+.sticky-center-panel {
+  position: sticky;
+  top: 4.3rem;
+  z-index: 9;
+  background: white !important;
+  box-shadow: 0px 15px 18px -25px black !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .modal-profile {
+    position: relative !important;
+    left: -14em;
+    top: -5em;
+  }
+
+  .pickzon-id {
+    margin-top: -5rem !important;
+  }
+
+  .pickzon-id-inner {
+    display: flex;
+    flex-direction: column;
+    margin-top: -5rem !important;
+  }
+
+  .pickzon-id-inner input[type="text"] {
+    width: 80% !important;
+  }
+
+  .modal-profile {
+    margin: 0 auto !important;
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .modal-profile {
+    position: relative !important;
+    left: -10em;
+    top: -5em;
+  }
+
+  .sticky-center-panel {
+    top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .modal-profile {
+    position: relative !important;
+    left: auto;
+  }
+
+  .pickzon-id {
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem !important;
+  }
+
+  .pickzon-id-inner {
+    display: flex;
+  }
+
+  .sticky-center-panel {
+    top: 3rem;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .modal-profile {
+    position: relative !important;
+    left: auto;
+  }
+
+  .modal-profile {
+    width: 100px;
+    height: 100px !important;
+  }
+
+  .modal-profile-img {
+    object-fit: cover;
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .sticky-center-panel .item img {
+    height: 1.5rem !important;
+  }
+
+  .pickzon-id-inner {
+    display: flex;
+    flex-direction: column;
+  }
+}

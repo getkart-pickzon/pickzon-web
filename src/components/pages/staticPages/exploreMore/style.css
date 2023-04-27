@@ -1,0 +1,170 @@
+#register,
+#login {
+  width: 300px;
+  border: 1px solid #d6d7da;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: arial;
+  line-height: 16px;
+  color: #333333;
+  font-size: 14px;
+  background: #d6d7da;
+  margin: 100px auto;
+}
+
+form label,
+form .textfiled {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%
+}
+
+form input {
+  border-radius: 5px;
+  padding: 10px;
+  border: solid 1px #BDC7D8;
+
+}
+
+form label {
+  margin-bottom: 5px;
+}
+
+.button {
+  background-color: #00BFFF;
+  border-color: #3ac162;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: #ffffff;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  max-width: 100px;
+}
+
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+.sucessMsg {
+  color: #6B8E23;
+  margin-bottom: 10px;
+}
+
+.form_success_msg {
+  width: 100%;
+  float: left;
+  padding: 15px 0;
+  margin: 5% 0;
+  color: #fff;
+  background-color: #f384aa;
+}
+
+
+/* Business-page */
+
+/* * {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+} */
+.inner-row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+ol {
+  padding: 0 15px 0 15px;
+}
+
+ol li {
+  padding: 5px 0;
+  text-align: justify;
+  line-height: 23px;
+  text-align: justify;
+}
+
+p {
+  margin-bottom: 15px;
+  text-align: justify;
+  line-height: 23px;
+  text-align: justify;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+.pickzon-button {
+  text-align: center;
+  padding: 15px;
+}
+
+.pickzon-button button {
+  background: #ffc600;
+  border: 1px solid #ffc600;
+  padding: 8px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.refer_title {
+  font-size: 35px;
+}
+
+.refer-outer {
+  margin: 30px 15px 15px 15px;
+  text-align: center;
+}
+
+.inner-row {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.inner-row ul {
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.inner-row ul li {
+  line-height: 25px;
+  margin-bottom: 5px;
+  text-align: justify;
+}
+
+.inner-row p {
+  text-align: justify;
+}
+.inner-row p, .inner-row li, .inner-row tr td{
+  font-size: 1.3rem; line-height: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .refer_title {
+    font-size: 20px;
+  }
+  .mobile-top{margin-top: 20px;}
+}
+
+/* Business-page */

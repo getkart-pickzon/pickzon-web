@@ -1,0 +1,21 @@
+.clip-card-head {
+  padding: 10px;
+  margin-bottom: 0px !important;
+}
+
+.clip-card-head .event {
+  align-items: center;
+}
+
+.clip-card-head-img {
+  display: flex !important;
+  align-items: center;
+  width: 50px !important;
+}
+
+.clip-card-head-content {
+  display: flex !important;
+  flex-direction: column;
+  margin: 0 0 0 2px !important;
+  justify-content: space-around;
+}

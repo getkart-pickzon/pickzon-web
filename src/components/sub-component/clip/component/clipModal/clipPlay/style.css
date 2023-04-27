@@ -1,0 +1,7 @@
+.clip-container {
+  background-color: black !important;
+  justify-content: center;
+  height: 100%;
+  width: auto !important;
+  /* margin: 0px !important; */
+}

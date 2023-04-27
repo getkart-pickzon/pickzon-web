@@ -1,0 +1,131 @@
+.earnMoney-left{padding-left: 15%;display: flex;align-items: center; justify-content:flex-end; text-align: right;height: 100%;}
+.earnMoney-outer{padding: 3rem 0px; background-color: #0177ff;}
+.earnMoney-left .ui.button{background-color: #fff; color: #0177ff;}
+.EarnMoney-title{font-size:7rem; color: #fff; text-align: right;}
+.earnMoney-left p{font-size: 1.8rem; color: #fff;margin: 2rem 0rem;}
+.EarnMoney-title span{width: 100%;  display: block;}
+.earnRightSide img{float: right;}
+.invite-outer{text-align: center; margin:2rem 0 2rem 0;}
+.invite-1{font-size: 4rem;color: #323232;margin-bottom: 0;}
+.invite-text-1, .invite-text-2{font-size: 1.5rem;color: #323232;}
+.invite-2{color: #0076fc;font-size: 2.5rem;margin-bottom: 0;}
+.card .image img{max-width: 220px; margin: 0 auto;}
+.card-earnmoeny .ui.card>.image, .ui.cards>.card>.image{background-color: #fff;margin-bottom: 1rem;}
+.card-earnmoeny  .ui.three.cards>.card {
+  width: calc(33.33333333% - 6em);
+  margin-left: 3em;
+  margin-right: 3em;
+  box-shadow: none;
+}
+
+.card-earnmoeny .ui.cards>.card>.content>.header{font-size: 1.5rem;  text-align: center;}
+.card-earnmoeny .ui.card>.content>.description{font-size: 1.3rem; text-align: center;color: #000;}
+.card-earnmoeny .ui.cards>.card>.content{border-top: none;}
+.refer-win-left{text-align: right;  font-size: 1.3rem;}
+.refer-win-title{font-size: 3.5rem;}
+.refer-win-left{margin-right: -9rem;margin-top: 2.5rem; color: #fff;}
+.refer-win-right{margin-left: -10rem;margin-top: 2.5rem; color:#fff}
+.refer-win-title-right{font-size: 3.5rem;}
+.refer-win{margin-top: 4rem;margin-bottom: 4rem;  
+  background-color: #0177ff;background-size: 100%;
+  background-position: bottom; background-repeat: no-repeat;}
+.refer-win-text-right, .refer-win-text{font-size: 1.5rem;}
+.refer-win .ui.grid>.row{padding-bottom: 0;}
+.morebutton{position: absolute; bottom: 10%; width: 90%; text-align: center;}
+.morebutton .ui.button{background-color: #fff; color: #0177ff;}
+.card-earnmoeny{background-position: bottom left; background-repeat: no-repeat;}
+.InviteEarn{ background-position: right  12px; background-repeat: no-repeat;}
+.earnMoney-outer{ background-position: left bottom;  background-repeat: no-repeat; background-size: 400px;}
+.invite-2 span{font-size: 1.3rem;}
+.earnRightSide img{margin-right: -1rem;}
+
+
+
+@media only screen and (max-width:1199px) {
+  .refer-win-left{ margin-right: -7rem;}
+  .refer-win-right{margin-left: -8rem;}
+  .refer-win-title,
+  .refer-win-title-right{font-size: 2rem;}
+
+
+}
+
+@media only screen and (max-width:1050px) {
+  .EarnMoney-title{font-size: 5rem;}
+  .ui.secondary.menu{margin-left: 0;margin-right: 0;}
+
+
+}
+@media only screen and (min-width:992px) {
+.refer-win-left img.ui.image,
+.refer-win-right img.ui.image{display: none;}
+
+}
+@media only screen and (max-width:991px) {
+  .EarnMoney-title{font-size: 4rem;}
+  .earnMoney-left{padding-left: 2%;}
+  .card-earnmoeny .ui.three.cards>.card {
+    width: calc(33.33333333% - 2em);
+    margin-left: 1em;
+    margin-right: 1em;}
+  .earnmoney-center-part img.ui.image{display: none;}
+  .refer-win-left, 
+  .refer-win-right{margin: 0; text-align: center;}
+.ui.grid>.row>.column.earnmoney-left-part,
+.ui.grid>.row>.column.earnmoney-center-part,
+.ui.grid>.row>.column.earnmoney-right-part{width: 33.33%!important;}
+.refer-win-title, .refer-win-title-right{font-size: 1.5rem;}
+.refer-win-left img,
+.refer-win-right img{ margin: 0 auto;}
+.ui.grid>.row>.column.earnmoney-left-part,
+.ui.grid>.row>.column.earnmoney-right-part{ box-shadow: 0px 0px 8px 4px #408ae1;}
+
+
+}
+
+@media only screen and (max-width:767px) {
+  .earnMoney-outer{background-size: 300px;}
+}
+
+@media only screen and (max-width:620px) {
+.ui.grid>.row>.column.earnLeftSide,
+.ui.grid>.row>.column.earnRightSide{width: 100% !important; margin-bottom: 1rem;}
+.earnMoney-left{
+  text-align: center;
+  padding-left: 0; 
+  justify-content: center;}
+.EarnMoney-title{text-align: center;}
+.EarnMoney-title span{width: auto; display: inline-block;}
+.earnMoney-left p{margin: 0 0 2rem 0rem;}
+.earnMoney-outer{background-size: 350px;}
+.card .image img{padding: 0 15px;}
+.card-earnmoeny .ui.cards>.card>.content>.header{font-size: 1.2rem;}
+.card-earnmoeny .ui.card>.content>.description{font-size: 1rem;}
+.card-earnmoeny .ui.cards>.card>.content{padding: 0;}
+.invite-2{font-size: 1.5rem;}
+.invite-1{font-size: 2.5rem;}
+
+}
+
+
+@media only screen and (max-width:520px) {
+.EarnMoney-title {font-size: 3rem;}
+.earnMoney-outer{background-size: 300px;}
+.card-earnmoeny .ui.three.cards>.card{
+  width: calc(33.33333333% - 1em);
+  margin-left: 0.5rem;
+  margin-right: 0.5em;
+}
+.card .image img{padding: 0;}
+.ui.grid>.row>.column.earnmoney-left-part, 
+.ui.grid>.row>.column.earnmoney-center-part, 
+.ui.grid>.row>.column.earnmoney-right-part{ width: 50%!important; padding: 15px 0;margin: 15px 0;}
+
+}
+
+@media only screen and (max-width:480px) {
+  .EarnMoney-title {font-size: 2.5rem;}
+  .earnMoney-left p{font-size: 1.5rem;}
+  .earnMoney-outer{background-size: 250px;}
+  
+  }

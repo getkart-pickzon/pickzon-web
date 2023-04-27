@@ -1,0 +1,26 @@
+.userinformation {
+  background: linear-gradient(315deg, #4961ad 30%, #eb2952 70%);
+  margin: 2rem 0;
+  padding: 4rem 0;
+}
+
+.userimformation-outer h2 {
+  font-size: 3rem;
+}
+
+.userimformation-outer h3 {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.userimformation-outer p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.userimformation-outer p,
+.userimformation-outer h2,
+.userimformation-outer h3 {
+  color: #fff;
+  text-align: center;
+}

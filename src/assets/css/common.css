@@ -1,0 +1,41 @@
+  @font-face {
+    font-family: 'helvetica-bold';
+    src: url('../fonts/helvetica-bold/helvetica-bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/helvetica-bold/helvetica-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/helvetica-bold/helvetica-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/helvetica-bold/helvetica-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/helvetica-bold/helvetica-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/helvetica-bold/helvetica-bold-webfont.svg') format('svg'); /* Legacy iOS */
+  }
+  @font-face {
+    font-family: 'quicksand-bold';
+    src: url('../fonts/quicksand-bold/quicksand_bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/quicksand-bold/quicksand_bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/quicksand-bold/quicksand_bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/quicksand-bold/quicksand_bold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/quicksand-bold/quicksand_bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/quicksand-bold/quicksand_bold.svg') format('svg'); /* Legacy iOS */
+  }
+  @font-face {
+    font-family: 'monofonto';
+    src: url('../fonts/monofonto/monofonto.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/monofonto/monofonto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/monofonto/monofonto.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/monofonto/monofonto.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/monofonto/monofonto.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/monofonto/monofonto.svg') format('svg'); /* Legacy iOS */
+  }
+  @font-face {
+    font-family: 'proxima_nova';
+    src: url('../fonts/proxima_nova/proxima_nova.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/proxima_nova/proxima_nova.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/proxima_nova/proxima_nova.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/proxima_nova/proxima_nova.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/proxima_nova/proxima_nova.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/proxima_nova/proxima_nova.svg') format('svg'); /* Legacy iOS */
+  }
+
+  h1, h2, h3, h4, h5, h6{font-family: 'helvetica-bold' !important;}
+  body, html{font-family: 'proxima_nova' !important;}
+  .ui.button{font-family: 'proxima_nova' !important;}
+  

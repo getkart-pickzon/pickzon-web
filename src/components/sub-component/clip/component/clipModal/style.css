@@ -1,0 +1,37 @@
+/* .ui.page.dimmer {
+  background: transparent;
+} */
+.clip-modal {
+  height: 618px;
+}
+
+.clip-modal-inner {
+  height: 100%;
+  padding: 0 !important;
+}
+
+.clip-modal-grid {
+  height: 100%;
+  margin: 0 !important;
+}
+
+.clip-modal-grid-column {
+  height: 100%;
+}
+
+/* .clip-caption-wrapper {
+  position: absolute;
+  width: 80%;
+  bottom: 0%;
+  margin: 10px !important;
+}
+
+.clip-caption {
+  color: white !important;
+}
+
+.clip-btn {
+  position: absolute;
+  bottom: 5%;
+  right: -10px;
+} */

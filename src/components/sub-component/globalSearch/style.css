@@ -1,0 +1,20 @@
+.global-search-box input {
+  border: none !important;
+  background: #f0f2f5 !important;
+  border-radius: 10rem !important;
+  outline: none !important;
+}
+
+.global-search-box i {
+  color: white !important;
+}
+
+.search-result {
+  width: 25rem !important;
+  max-height: 35rem;
+  overflow: auto;
+}
+
+.global-search-box ::placeholder {
+  color: #65676b !important;
+}

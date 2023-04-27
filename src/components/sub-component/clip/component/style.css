@@ -1,0 +1,54 @@
+.clip-grid {
+  justify-content: space-between;
+  margin: 0px !important;
+}
+
+.clip-grid-wrapper {
+  padding: 7px 0px !important;
+}
+
+/* clip-card */
+.clip-grid-card-view {
+  overflow: hidden;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  background-color: black !important;
+}
+
+/* clip image */
+.clip-grid-card-img {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+/* clip middle status */
+.clip-grid-card-status {
+  position: absolute;
+  width: 150px !important;
+  opacity: 0;
+  border: none !important;
+  align-self: center;
+}
+
+/* jumping-effect */
+/* .clip-grid-card-view:hover {
+  transform: translateY(0) !important;
+} */
+
+.clip-grid-card-view:hover .clip-grid-card-status .clip-grid-card-status-btn:hover {
+  background: transparent !important;
+}
+
+.clip-grid-card-view:hover .clip-grid-card-status-btn :nth-child(-n + 2) {
+  color: white !important;
+}
+
+.clip-grid-card-view:hover .clip-grid-card-img {
+  filter: blur(5px);
+}
+
+.clip-grid-card-view:hover .clip-grid-card-status {
+  opacity: 1;
+}

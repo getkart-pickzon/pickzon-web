@@ -1,0 +1,50 @@
+/* .create-post-crousel .carousel-status {
+  left: 0;
+  width: fit-content;
+  background-color: #00000030;
+  border-radius: 5px;
+  margin: 5px;
+} */
+.create-post-crousel .control-arrow {
+  height: 100px !important;
+  margin-top: 100px !important;
+  border-radius: 15px;
+}
+
+.create-post-caption {
+  min-height: 78px;
+}
+
+.crousel-wrapper {
+  height: 302px;
+  padding: 0px !important;
+}
+
+.empty-crousel {
+  height: 300px;
+  padding: 0px !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.crousel-contain-media {
+  /* background-color: black !important; */
+  display: flex !important;
+  align-items: center;
+  width: fit-content;
+  padding: 0px !important;
+  height: 300px;
+}
+
+.upload-btn {
+  position: absolute;
+  bottom: 150px;
+  right: 30px;
+  z-index: 55;
+}
+
+.feel-activity-btn {
+  padding-left: 30px !important;
+  padding-right: 0px !important;
+}
